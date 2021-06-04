@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/monster-rolodex/static/css/main.05fe7295.chunk.css",
+    "main.js": "/monster-rolodex/static/js/main.34ac2a1f.chunk.js",
+    "main.js.map": "/monster-rolodex/static/js/main.34ac2a1f.chunk.js.map",
+    "runtime-main.js": "/monster-rolodex/static/js/runtime-main.2a78db65.js",
+    "runtime-main.js.map": "/monster-rolodex/static/js/runtime-main.2a78db65.js.map",
+    "static/js/2.560b03b3.chunk.js": "/monster-rolodex/static/js/2.560b03b3.chunk.js",
+    "static/js/2.560b03b3.chunk.js.map": "/monster-rolodex/static/js/2.560b03b3.chunk.js.map",
+    "index.html": "/monster-rolodex/index.html",
+    "static/css/main.05fe7295.chunk.css.map": "/monster-rolodex/static/css/main.05fe7295.chunk.css.map",
+    "static/js/2.560b03b3.chunk.js.LICENSE.txt": "/monster-rolodex/static/js/2.560b03b3.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/monster-rolodex/static/media/BigelowRules-Regular.2bb68f0e.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a78db65.js",
+    "static/js/2.560b03b3.chunk.js",
+    "static/css/main.05fe7295.chunk.css",
+    "static/js/main.34ac2a1f.chunk.js"
+  ]
+}

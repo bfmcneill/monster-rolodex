@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/App.css"],"names":[],"mappings":"AAAA,WACE,2BAA4B,CAC5B,kHACF","file":"main.05fe7295.chunk.css","sourcesContent":["@font-face {\n  font-family: 'Bigelow Rules';\n  src: local('Bigelow Rules'), url('../theme/BigelowRules-Regular.ttf') format('truetype');\n}"]}
