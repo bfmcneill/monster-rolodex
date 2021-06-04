@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const StyledCard = styled.div`
   display: flex;
@@ -12,18 +12,18 @@ const StyledCard = styled.div`
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
-  &:hover{
-    transform: scale(1.05); 
+  &:hover {
+    transform: scale(1.05);
   }
-`
-export function Card(props){
-    const {monster} = props
-    const url = `https://robohash.org/${monster.id}?set=set2&size=180x180`
-    return (
-        <StyledCard>
-            <img src={url} alt={monster.name} />
-            <h1>{monster.name}</h1>      
-            <p>{monster.email}</p>      
-        </StyledCard>
-    )
+`;
+export function Card(props) {
+  const { monster } = props;
+  const url = `https://robohash.org/${monster.id}?set=set2&size=180x180`;
+  return (
+    <StyledCard>
+      <img src={url} alt={monster.name} />
+      <h1>{monster.name}</h1>
+      <p>{monster.email}</p>
+    </StyledCard>
+  );
 }

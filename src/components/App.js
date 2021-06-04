@@ -1,16 +1,16 @@
-import { Component } from "react";
-import styled from "styled-components";
-import { CardList } from "./card-list/card-list.component";
-import { SearchBox } from "./search-box/search-box.component";
-import GlobalStyle from "../theme/globalStyle";
-import './App.css'
+import { Component } from 'react';
+import styled from 'styled-components';
+import { CardList } from './card-list/card-list.component';
+import { SearchBox } from './search-box/search-box.component';
+import GlobalStyle from '../theme/globalStyle';
+import './App.css';
 
 const StyledApp = styled.div`
   text-align: center;
 `;
 
 const StyledH1 = styled.h1`
-  font-family: "Bigelow Rules";
+  font-family: 'Bigelow Rules';
   font-size: 72px;
   color: #0ccac4;
 `;
@@ -18,11 +18,11 @@ const StyledH1 = styled.h1`
 class App extends Component {
   constructor() {
     super();
-    this.state = { monsters: [], searchField: "" };
+    this.state = { monsters: [], searchField: '' };
   }
 
   componentDidMount() {
-    const url = "https://jsonplaceholder.typicode.com/users";
+    const url = 'https://jsonplaceholder.typicode.com/users';
     fetch(url)
       .then((response) => response.json())
       .then((users) =>
@@ -30,9 +30,7 @@ class App extends Component {
       );
   }
 
-  handleChange = (event) => {
-    return this.setState({ searchField: event.target.value });
-  };
+  handleChange = (event) => this.setState({ searchField: event.target.value });
 
   render() {
     const { monsters, searchField } = this.state;
