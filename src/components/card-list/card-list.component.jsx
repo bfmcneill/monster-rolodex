@@ -10,9 +10,10 @@ const StyledCardList = styled.div`
 `;
 
 export function CardList(props) {
+  const { monsters } = props;
   return (
     <StyledCardList>
-      {props.monsters.map((monster) => (
+      {monsters.map((monster) => (
         <Card key={monster.id} monster={monster} />
       ))}
     </StyledCardList>
